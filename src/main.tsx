@@ -4,10 +4,10 @@ import { HashRouter } from 'react-router-dom'
 import App from './App'
 import './index.css'
 
-// 注册 Service Worker
+// 注册 Service Worker（使用相对路径）
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {
       // 离线/localhost 时静默失败
     })
   })
