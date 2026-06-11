@@ -1,6 +1,0 @@
-import{c as o,j as e}from"./index-D_IdTjbh.js";/**
- * @license lucide-react v0.460.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const i=o("Scale",[["path",{d:"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z",key:"7g6ntu"}],["path",{d:"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z",key:"ijws7r"}],["path",{d:"M7 21h10",key:"1b0cd5"}],["path",{d:"M12 3v18",key:"108xh3"}],["path",{d:"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2",key:"3gwbw2"}]]),r={sm:"h-1.5",md:"h-2.5",lg:"h-3.5"},c={sm:"text-[10px]",md:"text-xs",lg:"text-sm"},d=s=>{const t=s*100;return t>=80?"#10B981":t>=50?"#F59E0B":"#EF4444"},u=({value:s,size:t="md",showLabel:l=!0})=>{const a=Math.min(1,Math.max(0,s)),n=d(a);return e.jsxs("div",{className:"w-full flex items-center gap-2.5",children:[e.jsx("div",{className:`flex-1 rounded-full overflow-hidden ${r[t]}`,style:{backgroundColor:"#E5E7EB"},children:e.jsx("div",{className:`${r[t]} rounded-full transition-all duration-500 ease-out`,style:{width:`${Math.round(a*100)}%`,backgroundColor:n}})}),l&&e.jsxs("span",{className:`${c[t]} font-semibold tabular-nums shrink-0`,style:{color:"#6B7280",minWidth:32,textAlign:"right"},children:[Math.round(a*100),"%"]})]})};export{u as M,i as S};
